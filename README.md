@@ -21,10 +21,15 @@ Silakan unduh model secara manual melalui Google Drive berikut:
 🔗 **Download model.pth:**  
 https://drive.google.com/file/d/16M8u0xK3KOkR4lasB8KZo8Kb_9h37iSn/view?usp=drive_link
 
+note: Tampilan di deploy by HuggingFace dan Local agak berbeda karena perbedaan versi, jadi disarankan untuk melihat tampilan melalui HuggingFace.
+
 ### Cara menggunakan model:
 1. Download file `model.pth` dari link di atas
 2. Letakkan file tersebut di **root folder project** (satu level dengan `src/`)
 3. Jalankan aplikasi seperti biasa
+4. Install dependencies streamlit
 
 ```bash
 streamlit run src/streamlit_app.py
+
+
